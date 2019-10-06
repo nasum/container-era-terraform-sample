@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
     bucket = "nasum-sample-terraform"
-    key    = "sample/ecr/terraform.tfstate"
+    key    = "sample/service/terraform.tfstate"
     region = "ap-northeast-1"
   }
 }
